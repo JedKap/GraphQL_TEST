@@ -1,11 +1,10 @@
-# graphql-crash-course
+# GraphQL - test
 ## To Start:
 nodemon index
 
 ##  Server ready at: http://localhost:4000/
 
 
-All the course files for the GraphQL Crash Course on the Net Ninja YouTube channel &amp; on Net Ninja Pro.
 mutation EditGame($edits: EditGameInput!, $id: ID!) {
   updateGame(edits: $edits, id: $id) {
     title,
